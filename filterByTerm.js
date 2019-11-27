@@ -3,3 +3,5 @@ function filterByTerm(inputArr, searchTerm) {
         return arrayElement.url.match(searchTerm);
     })
 }
+
+module.exports = {filterByTerm}
