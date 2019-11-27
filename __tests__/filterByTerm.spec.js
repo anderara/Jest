@@ -5,5 +5,6 @@ describe("Filter function", () => {
           { id: 2, url: "https://www.url2.dev" },
           { id: 3, url: "https://www.link3.dev" }
         ]
+        const output = [{ id: 3, url: "https://www.link3.dev" }]
       })
   })
